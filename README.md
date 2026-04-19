@@ -18,7 +18,7 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The seven variants
+## The eight variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -71,6 +71,11 @@ First variant that breaks the long-scroll format. Six dedicated pages built from
 StoryBrand spine threaded invisibly across all six pages. Reader lands on any page and still feels the arc.
 
 To preview: `open index.html` in the 07-multipage folder.
+
+### 08 · icp-workshop (v07 + Data/ICP Workshop positioning)
+Exactly v07 with one deliberate change: the Data page worked example becomes a proper structured ICP card, and the **Data and ICP Workshop** is positioned as the human-led ritual that starts every engagement. Three-step workshop process (Discovery, Codify, Approve and extract), structured ICP card with labelled fields (inclusion, exclusion, hot signal, cold signal), volume target badge. Also referenced on Home and Services so the Workshop appears wherever the Growth engine is introduced.
+
+To preview: `open data.html` in the 08-icp-workshop folder.
 
 ## Preview
 
