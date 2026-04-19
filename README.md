@@ -18,7 +18,7 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The five variants
+## The six variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -49,6 +49,13 @@ The most complete variant. Eight shifts from 04:
 - **Client video testimonials section** — six placeholder cards ready to hold the real videos migrated from the current automateaccelerator.com.
 
 This is the variant to walk the team through first.
+
+### 06 · proof-layer (v5 + credibility blocks)
+Exactly v5 with two additions, nothing else moved:
+- **Authentic founders' awards strip** after the team pillar — BRW Fast Starters, Deloitte Technology Fast 50, Deloitte Fast 50 Finalist, Ernst & Young, Fast 100, Fast Starters.
+- **Six-card client video testimonials section** between Industries and Principles, placeholder slots ready for migrating the real videos from the current automateaccelerator.com.
+
+Pick v6 when trust needs to work harder on the page. Pick v5 when you want the same architecture leaner.
 
 ## Preview
 
