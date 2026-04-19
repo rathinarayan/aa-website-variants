@@ -18,7 +18,7 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The six variants
+## The seven variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -56,6 +56,21 @@ Exactly v5 with two additions, nothing else moved:
 - **Six-card client video testimonials section** between Industries and Principles, placeholder slots ready for migrating the real videos from the current automateaccelerator.com.
 
 Pick v6 when trust needs to work harder on the page. Pick v5 when you want the same architecture leaner.
+
+### 07 · multipage (First multi-page variant, recommended for team review)
+First variant that breaks the long-scroll format. Six dedicated pages built from first principles to fix the AI story:
+- **Home** (`index.html`) — overarching pitch, conversion-focused, under 2,500 words
+- **Services** (`services.html`) — two products: Growth engine + AI Solutions
+- **AI** (`ai.html`) — the page that kills the AI confusion. Opens with "AI lives in two places at AA. Inside our Growth engine, where it multiplies the SDR team. And as AI Solutions, standalone. That is the whole story."
+- **Data** (`data.html`) — AA's technical edge as a full page (42 roles, 12 functions, 3 sources, workflow, them-vs-us)
+- **Case Studies** (`case-studies.html`) — featured case + 20-niche playbook + 6 video slots + authentic founders' awards
+- **Our Team** (`team.html`) — founders, Melbourne + AA-owned India, partnership framing
+
+**Key architectural decision:** AI is a capability layer inside Growth, plus a standalone engagement (AI Solutions). No third AI service bucket. No AI Outbound sold separately. This is the answer to Narayan's repeated question "how are you blending AI?" across v1-v6.
+
+StoryBrand spine threaded invisibly across all six pages. Reader lands on any page and still feels the arc.
+
+To preview: `open index.html` in the 07-multipage folder.
 
 ## Preview
 
