@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AA Website · Team Review · All Variants</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#F47920;
+  --purple:#412F8F;
+  --ink:#1A1A1A;
+  --paper:#FAF7F2;
+  --cream:#FBF9F4;
+  --soft:#F3EFE5;
+  --rule:#E6DFD3;
+  --muted:#6B5B3D;
+  --navy:#1B1442;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55;-webkit-font-smoothing:antialiased}
+.container{max-width:1100px;margin:0 auto;padding:0 32px}
+em{font-family:'Instrument Serif',serif;font-style:italic;color:var(--purple);font-weight:400}
+a{color:inherit;text-decoration:none}
+
+header{background:var(--navy);color:var(--paper);padding:80px 0 72px;position:relative;overflow:hidden}
+header::before{content:"";position:absolute;top:-150px;right:-150px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(244,121,32,.2),transparent 70%)}
+header > .container{position:relative;z-index:1}
+.eyebrow{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:.22em;text-transform:uppercase;margin-bottom:18px}
+header h1{font-size:clamp(40px,5vw,64px);font-weight:700;line-height:1.08;letter-spacing:-.02em;margin-bottom:18px}
+header h1 em{color:var(--orange);display:inline}
+header p{font-size:19px;color:#D9D1B8;max-width:680px;line-height:1.55}
+.count-row{display:flex;gap:36px;margin-top:32px;padding-top:28px;border-top:1px solid rgba(255,255,255,.12);flex-wrap:wrap}
+.count-row > div{display:flex;flex-direction:column;gap:2px}
+.count-row strong{font-family:'Instrument Serif',serif;font-style:italic;color:var(--orange);font-size:36px;line-height:1;font-weight:400}
+.count-row span{font-size:12px;color:rgba(255,255,255,.55);letter-spacing:.05em;text-transform:uppercase}
+
+section{padding:72px 0}
+.section-tag{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:.22em;text-transform:uppercase;margin-bottom:12px}
+h2{font-size:32px;font-weight:700;letter-spacing:-.02em;line-height:1.1;margin-bottom:16px}
+.lede{font-size:17px;color:var(--muted);max-width:720px;margin-bottom:44px;line-height:1.6}
+
+.variant{display:grid;grid-template-columns:auto 1fr auto;gap:32px;align-items:center;background:#fff;border:1px solid var(--rule);border-radius:8px;padding:28px 32px;margin-bottom:16px;transition:all .2s;text-decoration:none;color:var(--ink)}
+.variant:hover{border-color:var(--ink);transform:translateY(-2px);box-shadow:0 12px 24px rgba(0,0,0,.06)}
+.variant.featured{border-left:4px solid var(--orange)}
+.variant .vid{font-family:'Instrument Serif',serif;font-style:italic;color:var(--purple);font-size:32px;line-height:1;font-weight:400;min-width:48px}
+.variant .vbody{flex:1}
+.variant .vtag{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:.14em;text-transform:uppercase;margin-bottom:4px}
+.variant .vtitle{font-size:20px;font-weight:700;margin-bottom:4px;line-height:1.3;letter-spacing:-.01em}
+.variant .vdesc{font-size:14.5px;color:var(--muted);line-height:1.55}
+.variant .vlink{background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:13px;font-weight:600;white-space:nowrap}
+.variant:hover .vlink{background:var(--orange);color:var(--ink)}
+
+.recommendation{background:var(--cream);padding:24px 28px;border-radius:8px;border-left:4px solid var(--orange);margin-bottom:48px}
+.recommendation strong{color:var(--purple);display:block;margin-bottom:6px;font-size:14px;letter-spacing:.04em}
+.recommendation p{font-size:16px;color:var(--ink);line-height:1.55}
+
+footer{padding:40px 0 60px;text-align:center;color:var(--muted);font-size:13px}
+footer p{margin-bottom:6px}
+
+@media (max-width:720px){
+  .variant{grid-template-columns:1fr;gap:12px}
+  .variant .vid{font-size:24px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <p class="eyebrow">AA Website · Team Review Pack</p>
+    <h1>Nine variants. <em>One decision to make.</em></h1>
+    <p>Every variant is a live, working site. Open any one, walk the team through it, and tell the AA team which blocks land. The final AA site will be cut from the winning blocks across variants.</p>
+    <div class="count-row">
+      <div><strong>9</strong><span>complete variants</span></div>
+      <div><strong>6</strong><span>one-page long-scroll sites</span></div>
+      <div><strong>3</strong><span>multi-page sites</span></div>
+      <div><strong>1</strong><span>dedicated Workshop page (v09)</span></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="container">
+    <p class="section-tag">Start here</p>
+    <h2>Suggested team walkthrough order.</h2>
+    <p class="lede">Every variant is self-contained. If the team has limited time, walk v09 first (the most complete), then compare against v05 for a leaner take. Do not try to review all nine in one session.</p>
+
+    <div class="recommendation">
+      <strong>Where the AA team landed (current thinking)</strong>
+      <p>The multi-page variants (v07, v08, v09) are the strongest. The AI story is clearer there than anywhere in v01 through v06. v09 adds the dedicated Workshop page and is the current front-runner.</p>
+    </div>
+
+    <p class="section-tag">The nine variants</p>
+    <h2>One-page long-scroll variants (v01–v06)</h2>
+    <p class="lede">Single HTML page, everything in one scroll. Used to stress-test positioning quickly. Kept frozen for comparison.</p>
+
+    <a class="variant" href="01-editorial-founder/index.html">
+      <div class="vid">01</div>
+      <div class="vbody">
+        <p class="vtag">Editorial founder</p>
+        <p class="vtitle">The safe bet. Brand-continuous v3 spine.</p>
+        <p class="vdesc">Warm cream body, dark navy hero, Instrument Serif italic accents. Founder voice carried from v3. Recommended if you want maximum continuity with AA's current editorial identity.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="02-martell-translated/index.html">
+      <div class="vid">02</div>
+      <div class="vbody">
+        <p class="vtag">Martell translated</p>
+        <p class="vtitle">The bolder read. Builder voice for AU B2B.</p>
+        <p class="vdesc">Near-black hero, Space Grotesk, Geist Mono tags. Borrows Dan Martell's "not a dashboard, an outcome" framing, translated to Australian B2B. Recommended if we want to signal AA is different from a typical Melbourne agency.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="03-service-first-clean/index.html">
+      <div class="vid">03</div>
+      <div class="vbody">
+        <p class="vtag">Service-first clean</p>
+        <p class="vtitle">The minimalist read. Grade 6 language.</p>
+        <p class="vdesc">White canvas, one-sentence hero, three service cards answer "which one sounds like you?" immediately. Recommended if the site needs to convert owners who will not stay on a page longer than 90 seconds.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="04-data-forward/index.html">
+      <div class="vid">04</div>
+      <div class="vbody">
+        <p class="vtag">Data forward</p>
+        <p class="vtitle">Decision-maker data as the hero pillar.</p>
+        <p class="vdesc">First variant to elevate the Data capability (42 roles, 12 functions, 3 sources) to a top-of-page pillar. Scale claim defensible to real AA book (79+ clients). 12 B2B niches grid introduced here.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="05-human-first/index.html">
+      <div class="vid">05</div>
+      <div class="vbody">
+        <p class="vtag">Human first</p>
+        <p class="vtitle">Human SDR as the foundation. Most polished one-page variant.</p>
+        <p class="vdesc">Three stacked hero variations for team review. Human SDR pulled forward as the foundation. AI Outbound and AI Solutions clearly separated. 20 B2B niches. Collaboration-over-agency positioning. Scale: hundreds of Australian businesses since 2021.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="06-proof-layer/index.html">
+      <div class="vid">06</div>
+      <div class="vbody">
+        <p class="vtag">Proof layer</p>
+        <p class="vtitle">v05 plus authentic founders' awards and client video slots.</p>
+        <p class="vdesc">Exactly v05 with two additions: BRW Fast Starters, Deloitte Technology Fast 50, Deloitte Finalist, Ernst &amp; Young, Fast 100, Fast Starters. Plus six client video testimonial slots ready for migration from automateaccelerator.com.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+  </div>
+</section>
+
+<section style="background:#fff;border-top:1px solid var(--rule)">
+  <div class="container">
+    <h2>Multi-page variants (v07–v09)</h2>
+    <p class="lede">The first multi-page architecture. Each page has a single purpose. Built from first principles to fix the AI story (AI is a capability layer inside Growth, plus AI Solutions as a standalone engagement — nothing else).</p>
+
+    <a class="variant" href="07-multipage/index.html">
+      <div class="vid">07</div>
+      <div class="vbody">
+        <p class="vtag">Multipage</p>
+        <p class="vtitle">First multi-page variant. Six pages, AI as capability layer.</p>
+        <p class="vdesc">Home, Services, AI, Data, Case Studies, Our Team. The AI page opens with the one-sentence answer: "AI lives in two places at AA. Inside our Growth engine, and as a standalone AI Solutions engagement. That is the whole story."</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant" href="08-icp-workshop/index.html">
+      <div class="vid">08</div>
+      <div class="vbody">
+        <p class="vtag">ICP workshop</p>
+        <p class="vtitle">v07 plus the Data and ICP Workshop card view.</p>
+        <p class="vdesc">Single change on top of v07: the Data page gets a structured ICP card view with colour-coded inclusion, exclusion, hot, and cold fields. The Workshop is positioned as the human-led ritual that starts every engagement.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+
+    <a class="variant featured" href="09-workshop-page/index.html">
+      <div class="vid">09</div>
+      <div class="vbody">
+        <p class="vtag">Workshop page · Recommended</p>
+        <p class="vtitle">Dedicated Workshop page. Seven pages in the nav.</p>
+        <p class="vdesc">The Workshop is promoted to its own dedicated page (workshop.html) with full detail: three-step process, deliverable card, "what you walk away with", pricing model (bundled vs standalone), six-item FAQ. Linked prominently from Home, Services, and Data. The most complete variant.</p>
+      </div>
+      <span class="vlink">Open →</span>
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© Automate Accelerator 2026</p>
+  <p>Generated for the AA team · April 2026</p>
+</footer>
+
+</body>
+</html>

@@ -18,7 +18,13 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The eight variants
+## Live URLs
+
+Deployed to Vercel. Landing page with all nine variants: **https://aa-site-variants.vercel.app**
+
+Team review PDF with links and summaries: `../AA-Team-Review-Pack.pdf`
+
+## The nine variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -76,6 +82,11 @@ To preview: `open index.html` in the 07-multipage folder.
 Exactly v07 with one deliberate change: the Data page worked example becomes a proper structured ICP card, and the **Data and ICP Workshop** is positioned as the human-led ritual that starts every engagement. Three-step workshop process (Discovery, Codify, Approve and extract), structured ICP card with labelled fields (inclusion, exclusion, hot signal, cold signal), volume target badge. Also referenced on Home and Services so the Workshop appears wherever the Growth engine is introduced.
 
 To preview: `open data.html` in the 08-icp-workshop folder.
+
+### 09 · workshop-page (Current front-runner, deployed)
+The Workshop gets its own dedicated page (`workshop.html`). Nav grows to seven items. Dedicated Workshop page contains: three-step process (Discovery, Codify, Approve and extract), full ICP card, "what you walk away with" four-card block, pricing model (bundled vs standalone), and a six-item FAQ. Data page stays focused on the technical extraction edge with a short link out to the Workshop page. Footer variant meta-references removed — this variant is production-ready.
+
+Live URL: **https://aa-site-variants.vercel.app/09-workshop-page/**
 
 ## Preview
 
