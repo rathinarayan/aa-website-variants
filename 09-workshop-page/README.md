@@ -1,40 +1,56 @@
-# Variant 08 · icp-workshop
+# Variant 09 · workshop-page
 
-Exactly v07 with one change: the Data page "worked example" section is redesigned as a proper structured ICP card, and the concept of the **Data and ICP Workshop** (run by AA's human-led strategy team) is positioned as the ritual that starts every engagement.
+The Workshop is promoted from a section on the Data page (v08) to its own dedicated page. Nav grows from six to seven items. Footer "variant" meta-references are removed. Most complete variant in the set.
 
-## Single change from v07
+## Key change from v08
 
-The old "A worked example" section on the Data page was a single italic quote in a pull block. It communicated the idea but did not position the workshop as the ritual. V08 replaces it with:
+The Data and ICP Workshop now has its own page (`workshop.html`) with:
 
-1. **Three-step workshop process** — Discovery, Codify, Approve and extract. Each step is a card.
-2. **Structured ICP card** — a visualisation of what the workshop produces. Fields are labelled (Buyer function, Vertical, Geography, Firm size), with special treatment for inclusion (green), exclusion (red), hot signal (orange), cold signal (purple). A volume badge on the top right ("90-120 verified contacts target").
-3. **Services page mention** — Growth engine "What you get" now leads with "A Data and ICP Workshop with our human-led strategy team, week one." The first engagement step is now "discovery call, then a two-hour Data and ICP Workshop".
-4. **Home page Growth card** — now lists "A Data and ICP Workshop, week one" as the first feature.
+1. **Navy hero** — "The Data and ICP Workshop. Two hours with our human-led team."
+2. **Why this matters** section — "Most outbound fails before the first message goes out."
+3. **Three-step process** — Discovery (45 min) → Codify (in the room) → Approve and extract (next 24 hours)
+4. **Full ICP card** — carried forward from v08, structured, colour-coded (inclusion, exclusion, hot, cold)
+5. **What you walk away with** — four-card block (signed ICP brief, buyer-signal map, inclusion/exclusion list, sample extraction)
+6. **Pricing model** — bundled with Growth engine or standalone scoped engagement
+7. **FAQ** — six common questions (who joins, who runs it, remote or in-person, no ICP yet, timelines, quarterly refresh)
+8. **Finale CTA**
 
-## The workshop, positioned
+## Nav changes
 
-> "The Data and ICP Workshop. Two hours with our human-led team. Before we run a single outreach line, we sit down with you. No long form. No template. A structured conversation with our human strategy team that turns fuzzy buyer instinct into a brief our SDRs can actually work against."
+Seven items across all seven pages:
 
-Three steps: Discovery, Codify, Approve and extract.
+> Home · Services · Workshop · AI · Data · Case Studies · Our Team
 
-Why this matters: the Workshop is the moment where the Melbourne human team earns its place in the engagement. It is not AI. It is not a template. It is a real human conversation that translates the client's best-customer instinct into a structured extraction brief the data team can deliver against.
+## Data page changes
 
-## Everything else identical to v07
+The in-page workshop card is removed. The Data page now has a short "Where it all begins" section that links out to the dedicated Workshop page. Data page stays focused on extraction.
 
-Same six pages, same nav, same brand palette, same partnership framing, same AI architecture (capability layer inside Growth plus AI Solutions standalone), same 20 niches, same commercial model, same footer. Only the Data page "worked example" and small ICP Workshop mentions on Home and Services are new.
+## Footer meta-references removed
 
-## Open items before publish
+All pages have a clean production footer:
 
-Same as v07, plus:
+> © Automate Accelerator 2026. Partners, not a vendor.
+> Hundreds of Australian B2B businesses served since 2021 · Melbourne, Victoria · AA-owned operations, India.
 
-1. Validate with operations that the two-hour workshop commitment is deliverable at scale
-2. Decide if the workshop is bundled into the Growth engagement fee or priced as a separate paid engagement
-3. Confirm which strategist runs the workshop (Narayan? Melbourne AM? Dedicated strategy role?)
+This variant is production-ready.
+
+## Live URL
+
+Deployed on Vercel: **https://aa-site-variants.vercel.app/09-workshop-page/**
+Landing page with all variants: **https://aa-site-variants.vercel.app**
 
 ## Run locally
 
 ```bash
-open data.html
+open index.html
 ```
 
-Start on Data to see the new Workshop section. Then walk through Home and Services to see how the Workshop is referenced.
+## Open items before launch
+
+1. Real video testimonials migrated from current automateaccelerator.com
+2. Real award logo PNGs
+3. Founder bios (Narayan, Wasim)
+4. Melvin's title
+5. Workshop strategist name in the Workshop FAQ
+6. Decide: is the standalone Workshop a real SKU, or bundled only
+7. Real headshots for founders + team
