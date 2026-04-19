@@ -88,6 +88,13 @@ The Workshop gets its own dedicated page (`workshop.html`). Nav grows to seven i
 
 Live URL: **https://aa-site-variants.vercel.app/09-workshop-page/**
 
+### 10 · production-footer (Production-ready, deployed)
+v09 with two targeted fixes: (1) the old 4-column footer is replaced with a full production footer (brand block with logo + tagline + social icons, Sitemap column with every page linked, Work-with-us column, Reach-us column with addresses, bottom bar with copyright + legal links), (2) the mobile nav bug is fixed — all seven nav items stay visible on narrow viewports by wrapping instead of hiding. No more variant meta-references anywhere in the footer. This is the first variant that reads as a real production website when deployed.
+
+Live URL: **https://aa-site-variants.vercel.app/10-production-footer/**
+
+Use this variant as the build baseline.
+
 ## Preview
 
 From this folder:

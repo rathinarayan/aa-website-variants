@@ -57,8 +57,31 @@ h2{font-size:32px;font-weight:700;letter-spacing:-.02em;line-height:1.1;margin-b
 .recommendation strong{color:var(--purple);display:block;margin-bottom:6px;font-size:14px;letter-spacing:.04em}
 .recommendation p{font-size:16px;color:var(--ink);line-height:1.55}
 
-footer{padding:40px 0 60px;text-align:center;color:var(--muted);font-size:13px}
-footer p{margin-bottom:6px}
+footer.siteful{background:var(--ink);color:var(--paper);padding:72px 0 32px;margin-top:48px}
+.foot-top{display:grid;grid-template-columns:2fr 1fr 1fr 1.2fr;gap:48px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.1)}
+.foot-brand{display:flex;flex-direction:column;gap:12px}
+.foot-logo{height:28px;margin-bottom:4px}
+.foot-tag{font-size:15px;color:var(--paper);font-weight:500;line-height:1.5;max-width:300px}
+.foot-meta{font-size:13.5px;color:#B8AE8F;line-height:1.6}
+.foot-social{display:flex;gap:10px;margin-top:8px}
+.foot-social a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;color:var(--paper);transition:all .2s}
+.foot-social a:hover{background:var(--orange);color:var(--ink);transform:translateY(-2px)}
+.foot-col{display:flex;flex-direction:column}
+.foot-col .foot-label{font-size:11px;font-weight:700;color:var(--orange);letter-spacing:.2em;text-transform:uppercase;margin-bottom:18px}
+.foot-col ul li{padding:5px 0;font-size:14px;color:#B8AE8F;line-height:1.5;list-style:none}
+.foot-col ul{padding:0}
+.foot-col ul li a{color:#B8AE8F}
+.foot-col ul li a:hover{color:var(--orange)}
+.foot-addr{color:#B8AE8F;font-size:13.5px;line-height:1.55}
+.foot-bottom{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;padding-top:24px}
+.foot-bottom-left p{font-size:13px;color:#B8AE8F;margin:0 0 4px}
+.foot-fine-text{font-style:italic;color:#6B5B3D;font-size:12px}
+.foot-bottom-right{display:flex;gap:22px}
+.foot-bottom-right a{font-size:12.5px;color:#B8AE8F}
+.foot-bottom-right a:hover{color:var(--orange)}
+
+@media (max-width:900px){.foot-top{grid-template-columns:1fr 1fr;gap:32px}}
+@media (max-width:620px){.foot-top{grid-template-columns:1fr}.foot-bottom{flex-direction:column;align-items:flex-start}}
 
 @media (max-width:720px){
   .variant{grid-template-columns:1fr;gap:12px}
@@ -196,9 +219,59 @@ footer p{margin-bottom:6px}
   </div>
 </section>
 
-<footer>
-  <p>© Automate Accelerator 2026</p>
-  <p>Generated for the AA team · April 2026</p>
+<footer class="siteful">
+  <div class="container">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <img src="shared/assets/AA-logo-white.png" alt="Automate Accelerator" class="foot-logo">
+        <p class="foot-tag">B2B growth partner for Australian businesses. Human-led, AI-powered.</p>
+        <p class="foot-meta">One company. Two offices. One payroll.<br>Melbourne, Victoria · AA-owned operations, India.</p>
+        <div class="foot-social">
+          <a href="https://linkedin.com/company/automate-accelerator" aria-label="LinkedIn">in</a>
+          <a href="mailto:info@automateaccelerator.com" aria-label="Email">@</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <p class="foot-label">Variants</p>
+        <ul>
+          <li><a href="01-editorial-founder/index.html">v01 · Editorial founder</a></li>
+          <li><a href="02-martell-translated/index.html">v02 · Martell translated</a></li>
+          <li><a href="03-service-first-clean/index.html">v03 · Service-first clean</a></li>
+          <li><a href="04-data-forward/index.html">v04 · Data forward</a></li>
+          <li><a href="05-human-first/index.html">v05 · Human first</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-label">Multi-page</p>
+        <ul>
+          <li><a href="06-proof-layer/index.html">v06 · Proof layer</a></li>
+          <li><a href="07-multipage/index.html">v07 · Multipage</a></li>
+          <li><a href="08-icp-workshop/index.html">v08 · ICP workshop</a></li>
+          <li><a href="09-workshop-page/index.html">v09 · Workshop page</a></li>
+          <li><a href="10-production-footer/index.html">v10 · Production footer</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <p class="foot-label">Reach us</p>
+        <ul>
+          <li><a href="mailto:info@automateaccelerator.com">info@automateaccelerator.com</a></li>
+          <li class="foot-addr">Melbourne, Victoria<br>Australia</li>
+          <li class="foot-addr">AA-owned operations<br>India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div class="foot-bottom-left">
+        <p>© 2026 Automate Accelerator. Partners, not a vendor.</p>
+        <p class="foot-fine-text">Hundreds of Australian B2B businesses served since 2021.</p>
+      </div>
+      <div class="foot-bottom-right">
+        <a href="#">Privacy policy</a>
+        <a href="#">Terms of service</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </div>
 </footer>
 
 </body>
