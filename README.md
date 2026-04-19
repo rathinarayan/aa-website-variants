@@ -18,7 +18,7 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The four variants
+## The five variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -36,6 +36,19 @@ The strongest variant for conversion. Built on real AA data. Three shifts from 0
 - **Twelve B2B niches as the case studies section**, sourced from AA's real active and historical engagement book (79 verified clients). Each niche block has a two-line description of the decision-makers AA targets and the outcomes. Business Services and Operations featured (29 active clients, AA's largest niche).
 
 Scale claim updated to the defensible version: **79+ Australian B2B clients across 12 industries since 2021**. See variant README for the decision on keeping vs dropping the "thousands" language elsewhere.
+
+### 05 · human-first (Most polished, current front-runner)
+The most complete variant. Eight shifts from 04:
+- **Three hero variations stacked** for team review (results-led, pain-led, proof-led). Pick one at launch.
+- **Human SDR pulled forward to section 01.** The team is the foundation. AI multiplies what they do.
+- **AI is no longer confusing.** A dedicated "Two different AIs" explainer separates AI Outbound (bundled with SDR) from AI Solutions (separate engagement).
+- **"Hundreds of Australian businesses since 2021"** as the scale claim (79+ active, lifetime defensibly in the hundreds).
+- **20 B2B niches** as the case studies grid (up from 12 in v4). Added SaaS, Legal, Construction, Logistics, Energy, Travel, Media, Events.
+- **Collaboration, not an agency** as a dedicated section. Partnership principles: your wins are our wins, shared goals, skin in the game both sides, one Slack.
+- **Authentic founders' awards strip** — BRW Fast Starters, Deloitte Technology Fast 50, Deloitte Fast 50 Finalist, Ernst & Young, Fast 100, Fast Starters. Real recognition received by the founding team.
+- **Client video testimonials section** — six placeholder cards ready to hold the real videos migrated from the current automateaccelerator.com.
+
+This is the variant to walk the team through first.
 
 ## Preview
 
