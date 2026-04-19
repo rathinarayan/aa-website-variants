@@ -18,7 +18,7 @@ Six placeholder stories across different industries: professional services, SaaS
 
 **Before publish:** replace placeholder copy with real engagement stories, real numbers, and real client names where we have permission. Swap the featured case to the single strongest story.
 
-## The three variants
+## The four variants
 
 ### 01 · editorial-founder
 The safe bet. Carries v3's brand spine forward. Dark navy hero, warm cream body, Instrument Serif italic accents on key phrases. Founder voice. Recommended if we want maximum continuity with AA's current editorial identity.
@@ -28,6 +28,14 @@ The bolder read. Near-black hero, Space Grotesk, Geist Mono tags, strong contras
 
 ### 03 · service-first-clean
 The minimalist read. White canvas, one-sentence hero, three service cards answer "which one sounds like you?" immediately. Grade 6 language. Recommended if the site needs to convert owners who will not stay on a page longer than 90 seconds.
+
+### 04 · data-forward (Recommended for team review)
+The strongest variant for conversion. Built on real AA data. Three shifts from 01-03:
+- **Decision-maker data elevated to a hero pillar.** 42 roles, 12 functions, 3 verification sources. "We do not buy databases. We build them." Most agencies lease a list and spray a template — AA's edge is that every contact is verified before the first message goes out.
+- **Pay-on-results commercial with skin-in-the-game on tools.** Client pays only when a lead converts. Client covers third-party tool costs (inbox warmup, LinkedIn seats, AI voice minutes, CRM seats). AA carries outcome risk, client carries tooling cost. Fair on both sides.
+- **Twelve B2B niches as the case studies section**, sourced from AA's real active and historical engagement book (79 verified clients). Each niche block has a two-line description of the decision-makers AA targets and the outcomes. Business Services and Operations featured (29 active clients, AA's largest niche).
+
+Scale claim updated to the defensible version: **79+ Australian B2B clients across 12 industries since 2021**. See variant README for the decision on keeping vs dropping the "thousands" language elsewhere.
 
 ## Preview
 
